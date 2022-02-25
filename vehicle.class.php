@@ -42,7 +42,7 @@ class Vehicle
         return $this->currentSpeed;
     }
 
-    public function setCurrentSpeed(int $currentSpeed): void
+    public function setCurrentSpeed(int $currentSpeed)
     {
         if($currentSpeed >= 0){
             $this->currentSpeed = $currentSpeed;
@@ -54,7 +54,7 @@ class Vehicle
         return $this->color;
     }
 
-    public function setColor(string $color): void
+    public function setColor(string $color)
     {
         $this->color = $color;
     }
@@ -64,7 +64,7 @@ class Vehicle
         return $this->nbSeats;
     }
 
-    public function setNbSeats(int $nbSeats): void
+    public function setNbSeats(int $nbSeats)
     {
         $this->nbSeats = $nbSeats;
     }
@@ -74,7 +74,7 @@ class Vehicle
         return $this->nbWheels;
     }
 
-    public function setNbWheels(int $nbWheels): void
+    public function setNbWheels(int $nbWheels)
     {
         $this->nbWheels = $nbWheels;
     }
